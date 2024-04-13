@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextSummarizer", "TextSummarizer\TextSummarizer.csproj", "{FF7DABBC-3906-4563-9D4C-707E48F073ED}"
+	ProjectSection(ProjectDependencies) = postProject
+		{986C4B0B-B10C-4247-B788-B6B2C27C0309} = {986C4B0B-B10C-4247-B788-B6B2C27C0309}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Summarizer", "Summarizer\Summarizer.csproj", "{986C4B0B-B10C-4247-B788-B6B2C27C0309}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF7DABBC-3906-4563-9D4C-707E48F073ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF7DABBC-3906-4563-9D4C-707E48F073ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF7DABBC-3906-4563-9D4C-707E48F073ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF7DABBC-3906-4563-9D4C-707E48F073ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{986C4B0B-B10C-4247-B788-B6B2C27C0309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{986C4B0B-B10C-4247-B788-B6B2C27C0309}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{986C4B0B-B10C-4247-B788-B6B2C27C0309}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{986C4B0B-B10C-4247-B788-B6B2C27C0309}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF396428-AA11-44A4-B529-214F5504D1E2}
+	EndGlobalSection
+EndGlobal
